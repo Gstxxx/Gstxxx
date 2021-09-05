@@ -3,7 +3,6 @@
   <a href="https://github.com/Gstxxx"><br>
    <img align="right" width="300" src="https://share-cdn.picrew.me/shareImg/org/202109/81574_sYqNJGik.png" />
 </div>
-<div style="display: inline_block"><br>
 ```m
  
  
