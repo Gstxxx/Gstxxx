@@ -22,8 +22,10 @@
 public static Gstx(){
     string[] l = new string[4] {"C++", "C#", "Lua", "cuepau350", "BIRL"};
 }
-```<img align="right" width="300" src="https://share-cdn.picrew.me/shareImg/org/202109/81574_sYqNJGik.png" />
-  ##
+```
+    ##
+  <img align="right" width="300" src="https://share-cdn.picrew.me/shareImg/org/202109/81574_sYqNJGik.png" />
+
  
 <div> 
   <a href="https://www.youtube.com/channel/UChSRW6L5r0esk1xVB5Dqt7g" target="_blank"><img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" target="_blank"></a>
