@@ -9,6 +9,14 @@
   <img align="right" alt="GSTXCHUNGOS-yoda" src="https://picrew.me/share?cd=FSl8fDg8fu">
 </div>
   
+```C#
+public class Okami ラコステ (){
+    var e = "Programmer and Game Developer";
+ 
+    var langs = "ALGUMAS LINGUAGENS";
+    string[] l = new string[5] {"C#", "Php", "JavaScript", "Kotlin", "React"};
+}
+```
   ##
  
 <div> 
