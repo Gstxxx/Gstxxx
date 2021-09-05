@@ -6,17 +6,23 @@
 <div style="display: inline_block"><br>
   <img align="center" alt="Csharp" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg">
   <img align="center" alt="Csharp" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg">
-  <img align="right" alt="GSTXCHUNGOS-yoda" src="https://picrew.me/share?cd=FSl8fDg8fu">
 </div>
   
 ```C#
-public class Okami ラコステ (){
-    var e = "Programmer and Game Developer";
- 
-    var langs = "ALGUMAS LINGUAGENS";
-    string[] l = new string[5] {"C#", "Php", "JavaScript", "Kotlin", "React"};
+  
+            Console.WriteLine("███▀▀▀██▄   ███    ███ ███     ███ ███     ███   ███    ███ ███   ██▄");
+            Console.WriteLine("███   ███   ███    █▀  ███     ███ ███     ███   ███    ███ ███▄▄▄███");
+            Console.WriteLine("███   ███  ▄███▄▄▄     ███     ███ ███     ███   ███    ███ ▀▀▀▀▀▀███");
+            Console.WriteLine("███   ███ ▀▀███▀▀▀     ███     ███ ███     ███ ▀███████████ ▄██   ███");
+            Console.WriteLine("███   ███   ███    █▄  ███     ███ ███     ███   ███    ███ ███   ███");
+            Console.WriteLine("███   ███   ███    ███ ███ ▄█▄ ███ ███ ▄█▄ ███   ███    ███ ███   ███");
+            Console.WriteLine(" ▀█   █▀    ██████████  ▀███▀███▀   ▀███▀███▀    ███    █▀   ▀█████▀ ");
+  
+  
+public static Gstx(){
+    string[] l = new string[4] {"C++", "C#", "Lua", "cuepau350", "BIRL"};
 }
-```
+```<img align="right" width="300" src="https://share-cdn.picrew.me/shareImg/org/202109/81574_sYqNJGik.png" />
   ##
  
 <div> 
