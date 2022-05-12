@@ -21,7 +21,3 @@
 <div align="center">
     <img src="https://github-readme-streak-stats.herokuapp.com?user=Gstxxx&theme=radical&hide_border=true&date_format=M%20j%5B%2C%20Y%5D">
 </div>
-
-![Metrics](https://metrics.lecoq.io/Gstxxx?template=classic&base.header=0&base.activity=0&base.community=0&base.repositories=0&isocalendar=1&languages=1&lines=1&achievements=1&notable=1&stars=1&repositories=1&repositories=100&repositories.batch=100&repositories.forks=false&repositories.affiliations=owner&isocalendar.duration=full-year&languages.limit=8&languages.sections=most-used&languages.colors=github&languages.threshold=0%25&languages.indepth=false&languages.analysis.timeout=15&languages.categories=markup%2C%20programming&languages.recent.categories=markup%2C%20programming&languages.recent.load=300&languages.recent.days=14&stars.limit=4&achievements.threshold=C&achievements.secrets=true&achievements.display=compact&achievements.limit=0&achievements.ignored=explorer&notable.from=organization&notable.repositories=false&repositories.featured=Gstxxx%2Fweeby.py%2C%Gstxxx%2Fkanna-chan&config.timezone=Asia%2FCalcutta&config.display=large)
-
-
