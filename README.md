@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="https://discord.c99.nl/widget/theme-1/573655716678598656.png"/>
+    <img src="https://discord.c99.nl/widget/theme-1/1028834446998253641.png"/>
 </p>
 <p align="center">
     悪 (warukatta) | Was bad.
