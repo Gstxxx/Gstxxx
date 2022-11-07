@@ -2,7 +2,8 @@
 <h1>Hi, I'm Gstx</h1>
 </div>
 <div align="center">
-<p>I'm a software engeneer from Brazil 🇧🇷/p>
+    
+<p>I'm a software engeneer from Brazil 🇧🇷</p>
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" width="40" height="40"/> 
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" width="40" height="40"/> 
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" width="40" height="40"> 
