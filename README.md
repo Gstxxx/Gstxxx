@@ -2,7 +2,8 @@
 <h1>Hi, I'm Gstx</h1>
 <p>I'm a software engeneer from Brazil 🇧🇷 and my stacks are:</p>
 </div>
-<div align="center">
+<div>
+<div align="left">
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" width="40" height="40"/> 
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" width="40" height="40"/> 
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" width="40" height="40"> 
@@ -10,8 +11,7 @@
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg" width="40" height="40"/>
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" width="40" height="40"/>
 </div>
-
-<h2 align="center">Stats</h2>
-<div align="center">
+<div align="right">
     <img src="https://github-readme-streak-stats.herokuapp.com?user=Gstxxx&theme=radical&hide_border=true&date_format=M%20j%5B%2C%20Y%5D">
+</div>
 </div>
