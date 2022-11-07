@@ -1,5 +1,5 @@
-<h3 align="left">Languages and Tools:</h3>
 <div align="center">
+<h3 align="left">Languages and Tools:</h3>
 <p align="center">
     悪 (warukatta) | Was bad.
 </p>
