@@ -9,5 +9,5 @@
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" width="40" height="40"/>
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg" width="40" height="40"/>
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" width="40" height="40"/>  
-    <img src="https://github-readme-streak-stats.herokuapp.com?user=Gstxxx&theme=radical&hide_border=true&date_format=M%20j%5B%2C%20Y%5D" width="400"height="200" align="right">
+    <img src="https://github-readme-streak-stats.herokuapp.com?user=Gstxxx&theme=radical&hide_border=true&date_format=M%20j%5B%2C%20Y%5D" width="400"height="200" align="center">
 </div>
