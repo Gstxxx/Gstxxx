@@ -15,6 +15,6 @@
     <img src="https://github-readme-streak-stats.herokuapp.com?user=Gstxxx&theme=radical&hide_border=true&date_format=M%20j%5B%2C%20Y%5D">
 </div>
 <p align="center">
-    <img alt="Coding Activity" src="https://wakatime.com/badge/user/eb85e220-009b-41eb-9b8c-9961b9c2847d.svg">
+    <img alt="Coding Activity" src="https://wakatime.com/share/@Gstx/ec07f497-24eb-4be8-b890-b72c1cde4bad.svg">
 </p>
 <figure><embed src="https://wakatime.com/share/@Gstx/ec07f497-24eb-4be8-b890-b72c1cde4bad.svg"></embed></figure>
