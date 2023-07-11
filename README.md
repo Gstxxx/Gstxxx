@@ -14,3 +14,7 @@
 <div align="center">
     <img src="https://github-readme-streak-stats.herokuapp.com?user=Gstxxx&theme=radical&hide_border=true&date_format=M%20j%5B%2C%20Y%5D">
 </div>
+## Coding Activity
+<p align="center">
+    <img alt="Coding Activity" src="https://wakatime.com/badge/user/eb85e220-009b-41eb-9b8c-9961b9c2847d.svg">
+</p>
