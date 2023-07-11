@@ -17,4 +17,3 @@
 <p align="center">
     <img alt="Coding Activity" src="https://wakatime.com/share/@Gstx/ec07f497-24eb-4be8-b890-b72c1cde4bad.svg">
 </p>
-<figure><embed src="https://wakatime.com/share/@Gstx/ec07f497-24eb-4be8-b890-b72c1cde4bad.svg"></embed></figure>
