@@ -1,5 +1,7 @@
 <div align="left">
 <h1>Hi, I'm Gstx</h1>
+<div align="right">
+    <img src="https://github.com/geekygreek7/animated-pokemon-gifs/blob/master/1.gif" width="40" height="40"/>
 </div>
 <div align="center">
 <p>I'm a software engeneer from Brazil 🇧🇷</p>
