@@ -13,4 +13,16 @@
 </div>
 <div align="center">
     <img src="https://github-readme-streak-stats.herokuapp.com?user=Gstxxx&theme=radical&hide_border=true&date_format=M%20j%5B%2C%20Y%5D">
+
+ <picture>
+  <source
+    srcset="https://github-readme-stats.vercel.app/api?username=Gstxxx&show_icons=true&theme=dark"
+    media="(prefers-color-scheme: dark)"
+  />
+  <source
+    srcset="https://github-readme-stats.vercel.app/api?username=Gstxxx&show_icons=true"
+    media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
+  />
+  <img src="https://github-readme-stats.vercel.app/api?username=Gstxxx&show_icons=true" />
+</picture>
 </div>
