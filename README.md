@@ -87,5 +87,10 @@ const gustavo = {
 </div>
 
 <div align="center">
-  <img src="https://github.com/Gstxxx/Gstxxx/blob/output/github-contribution-grid-snake-dark.svg" alt="Snake animation" />
+  <picture>
+  <source media="(prefers-color-scheme: dark)" srcset="dist/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="dist/github-snake.svg" />
+  <img alt="GitHub contribution snake" src="dist/github-snake.svg" />
+</picture>
+
 </div>
