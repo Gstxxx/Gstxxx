@@ -77,11 +77,16 @@ fi
 
 # exa
 if ! command -v exa &>/dev/null; then
-    echo "📦 Instalando exa..."
-    sudo apt install -y exa
+    echo "📦 Tentando instalar exa ou eza..."
+    if sudo apt install -y eza; then
+        echo "✅ Instalado eza (substituto do exa)."
+    else
+        echo "⚠️ Falha ao instalar eza. Você pode instalar exa manualmente."
+    fi
 else
     echo "✅ exa já está instalado."
 fi
+
 
 # secman
 if ! command -v secman &>/dev/null; then
