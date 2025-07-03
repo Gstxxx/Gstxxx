@@ -10,7 +10,7 @@
 
 ## 🚀 Sobre mim
 
-Sou um **desenvolvedor full-stack** apaixonado por criar experiências digitais incríveis, com foco especial no **frontend**. Baseado no Rio de Janeiro 🏖️, transformo ideias em código há mais de 8 anos.
+Sou um **desenvolvedor full-stack** apaixonado por criar experiências digitais incríveis, com foco especial no **frontend**. Baseado no Rio de Janeiro 🏖️, transformo ideias em código há mais de **8 anos**.
 
 ```typescript
 const gustavo = {
@@ -59,11 +59,11 @@ const gustavo = {
 ## 🌟 Projetos em Destaque
 
 <div align="center">
-  <a href="https://github.com/Gstxxx/projeto1">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Gstxxx&repo=projeto1&theme=tokyonight" />
+  <a href="https://github.com/Gstxxx/Cantina">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Gstxxx&repo=Cantina&theme=tokyonight" />
   </a>
-  <a href="https://github.com/Gstxxx/projeto2">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Gstxxx&repo=projeto2&theme=tokyonight" />
+  <a href="https://github.com/Gstxxx/Giveaways">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Gstxxx&repo=Giveaways&theme=tokyonight" />
   </a>
 </div>
 
@@ -71,10 +71,10 @@ const gustavo = {
 
 <div align="center">
   
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/seu-perfil)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/gustavo-azevedo-28ba59248)
 [![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=todoist&logoColor=white)](https://seu-portfolio.com)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:seu-email@gmail.com)
-[![Discord](https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/seu-discord)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:contatogstx@gmail.com)
+[![Discord](https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com/users/gustavin_69)
 
 </div>
 
