@@ -75,23 +75,25 @@ else
     echo "✅ colorls já está instalado."
 fi
 
-# exa
-if ! command -v exa &>/dev/null; then
-    echo "📦 Tentando instalar exa ou eza..."
-    if sudo apt install -y eza; then
-        echo "✅ Instalado eza (substituto do exa)."
-    else
-        echo "⚠️ Falha ao instalar eza. Você pode instalar exa manualmente."
-    fi
+# eza (substituto do exa)
+if ! command -v eza &>/dev/null; then
+    echo "📦 Instalando eza (substituto do exa)..."
+    sudo apt install -y eza || echo "⚠️ Falha ao instalar eza"
 else
-    echo "✅ exa já está instalado."
+    echo "✅ eza já está instalado."
 fi
-
 
 # secman
 if ! command -v secman &>/dev/null; then
     echo "🔐 Instalando Secman..."
-    npm install -g secman || curl -fsSL https://cli.secman.dev | bash
+    if ! npm install -g secman; then
+        echo "⚠️ Falha no npm (permissão ou versão Node). Tentando via script..."
+        if curl -fsSL https://cli.secman.dev | bash; then
+            echo "✅ Secman instalado via script."
+        else
+            echo "❌ Falha na instalação do Secman via script. Verifique sua conexão DNS ou permissões."
+        fi
+    fi
 else
     echo "✅ Secman já está instalado."
 fi
@@ -106,15 +108,15 @@ fi
 
 # Adiciona aliases de ls
 if ! grep -q 'alias ls=' ~/.zshrc; then
-    echo "📁 Adicionando aliases para colorls ou exa..."
+    echo "📁 Adicionando aliases para colorls ou eza..."
     echo '
-# Aliases para colorls ou exa
+# Aliases para colorls ou eza
 if [ -x "$(command -v colorls)" ]; then
     alias ls="colorls"
     alias la="colorls -al"
-elif [ -x "$(command -v exa)" ]; then
-    alias ls="exa"
-    alias la="exa --long --all --group"
+elif [ -x "$(command -v eza)" ]; then
+    alias ls="eza"
+    alias la="eza --long --all --group"
 fi
 ' >> ~/.zshrc
 fi
@@ -131,7 +133,12 @@ fi
 ' >> ~/.zshrc
 fi
 
-echo "✅ Finalizando..."
-source ~/.zshrc
+# Só roda source ~/.zshrc se estiver no zsh
+if [ "$SHELL" = "$(which zsh)" ]; then
+    echo "♻️ Recarregando ~/.zshrc"
+    source ~/.zshrc
+else
+    echo "⚠️ Para aplicar as mudanças, abra um novo terminal com Zsh (execute 'zsh' ou reinicie seu terminal)."
+fi
 
-echo -e "\n🎉 Terminal personalizado com sucesso! Digite \033[1mp10k configure\033[0m para finalizar a personalização do PowerLevel10k."
+echo -e "\n🎉 Terminal personalizado com sucesso! Digite \033[1mp10k configure\033[0m para finalizar a configuração do PowerLevel10k."
