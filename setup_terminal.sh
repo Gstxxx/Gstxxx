@@ -6,7 +6,7 @@ echo "🔧 Atualizando pacotes..."
 sudo apt update && sudo apt upgrade -y
 
 echo "📦 Instalando Zsh e dependências..."
-sudo apt install -y zsh curl git ruby-full npm fonts-firacode
+sudo apt install -y zsh curl git ruby-full npm fonts-firacode cmatrix
 
 echo "📌 Definindo Zsh como shell padrão..."
 chsh -s $(which zsh)
@@ -59,6 +59,15 @@ if [ -x "$(command -v colorls)" ]; then
 elif [ -x "$(command -v exa)" ]; then
     alias ls="exa"
     alias la="exa --long --all --group"
+fi
+' >> ~/.zshrc
+
+echo "🌌 Adicionando efeito Matrix com cmatrix ao abrir o terminal..."
+echo '
+# Efeito Matrix ao iniciar terminal
+if command -v cmatrix &>/dev/null; then
+  cmatrix -u 5 -b &
+  sleep 2 && kill $! &>/dev/null
 fi
 ' >> ~/.zshrc
 
