@@ -10,7 +10,7 @@
 
 ## 🚀 Sobre mim
 
-Sou um **desenvolvedor full-stack** apaixonado por criar experiências digitais incríveis, com foco especial no **frontend**. Baseado no Rio de Janeiro 🏖️, transformo ideias em código há mais de [X] anos.
+Sou um **desenvolvedor full-stack** apaixonado por criar experiências digitais incríveis, com foco especial no **frontend**. Baseado no Rio de Janeiro 🏖️, transformo ideias em código há mais de 8 anos.
 
 ```typescript
 const gustavo = {
