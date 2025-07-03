@@ -5,53 +5,104 @@ set -e
 echo "🔧 Atualizando pacotes..."
 sudo apt update && sudo apt upgrade -y
 
-echo "📦 Instalando Zsh e dependências..."
-sudo apt install -y zsh curl git ruby-full npm fonts-firacode cmatrix
+echo "📦 Instalando dependências básicas..."
+sudo apt install -y curl git zsh ruby-full npm fonts-firacode cmatrix
 
-echo "📌 Definindo Zsh como shell padrão..."
-chsh -s $(which zsh)
+echo "📌 Definindo Zsh como shell padrão (se necessário)..."
+if [ "$SHELL" != "$(which zsh)" ]; then
+    chsh -s $(which zsh)
+fi
 
-echo "💡 Instalando Oh My Zsh..."
-export RUNZSH=no
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+# Instalação do Oh My Zsh
+if [ ! -d "$HOME/.oh-my-zsh" ]; then
+    echo "💡 Instalando Oh My Zsh..."
+    export RUNZSH=no
+    sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+else
+    echo "⚠️ Oh My Zsh já está instalado. Pulando instalação."
+fi
 
 ZSH_CUSTOM="${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}"
 
-echo "🎨 Instalando PowerLevel10k..."
-git clone --depth=1 https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k
+# PowerLevel10k
+if [ ! -d "$ZSH_CUSTOM/themes/powerlevel10k" ]; then
+    echo "🎨 Instalando PowerLevel10k..."
+    git clone --depth=1 https://github.com/romkatv/powerlevel10k.git "$ZSH_CUSTOM/themes/powerlevel10k"
+else
+    echo "⚠️ PowerLevel10k já está instalado. Pulando..."
+fi
 
-echo "🎨 Ativando tema PowerLevel10k..."
-sed -i 's/^ZSH_THEME=.*/ZSH_THEME="powerlevel10k\/powerlevel10k"/' ~/.zshrc
+# Atualiza tema no .zshrc
+if ! grep -q 'ZSH_THEME="powerlevel10k/powerlevel10k"' ~/.zshrc; then
+    echo "🎨 Ativando tema PowerLevel10k..."
+    sed -i 's/^ZSH_THEME=.*/ZSH_THEME="powerlevel10k\/powerlevel10k"/' ~/.zshrc
+fi
 
-echo "🔌 Instalando plugins básicos..."
-git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $ZSH_CUSTOM/plugins/zsh-syntax-highlighting
-git clone https://github.com/zsh-users/zsh-autosuggestions.git $ZSH_CUSTOM/plugins/zsh-autosuggestions
+# Plugins
+declare -A plugins_git=(
+    [zsh-syntax-highlighting]="https://github.com/zsh-users/zsh-syntax-highlighting.git"
+    [zsh-autosuggestions]="https://github.com/zsh-users/zsh-autosuggestions.git"
+    [zsh-completions]="https://github.com/zsh-users/zsh-completions.git"
+    [zsh-history-substring-search]="https://github.com/zsh-users/zsh-history-substring-search.git"
+    [you-should-use]="https://github.com/MichaelAquilina/zsh-you-should-use.git"
+    [fast-syntax-highlighting]="https://github.com/zdharma-continuum/fast-syntax-highlighting.git"
+    [zsh-vi-mode]="https://github.com/jeffreytse/zsh-vi-mode.git"
+    [fzf-tab]="https://github.com/Aloxaf/fzf-tab.git"
+)
 
-echo "🔌 Instalando plugins adicionais..."
-git clone https://github.com/zsh-users/zsh-completions.git $ZSH_CUSTOM/plugins/zsh-completions
-git clone https://github.com/zsh-users/zsh-history-substring-search.git $ZSH_CUSTOM/plugins/zsh-history-substring-search
-git clone https://github.com/MichaelAquilina/zsh-you-should-use.git $ZSH_CUSTOM/plugins/you-should-use
-git clone https://github.com/zdharma-continuum/fast-syntax-highlighting.git $ZSH_CUSTOM/plugins/fast-syntax-highlighting
-git clone https://github.com/jeffreytse/zsh-vi-mode.git $ZSH_CUSTOM/plugins/zsh-vi-mode
-git clone https://github.com/Aloxaf/fzf-tab.git $ZSH_CUSTOM/plugins/fzf-tab
+echo "🔌 Instalando plugins..."
+for plugin in "${!plugins_git[@]}"; do
+    if [ ! -d "$ZSH_CUSTOM/plugins/$plugin" ]; then
+        echo "➕ Instalando $plugin..."
+        git clone "${plugins_git[$plugin]}" "$ZSH_CUSTOM/plugins/$plugin"
+    else
+        echo "✅ Plugin $plugin já instalado."
+    fi
+done
 
-echo "🔧 Ativando todos os plugins no ~/.zshrc..."
-sed -i 's/^plugins=.*/plugins=(git zsh-autosuggestions zsh-syntax-highlighting zsh-completions zsh-history-substring-search you-should-use fast-syntax-highlighting zsh-vi-mode fzf-tab)/' ~/.zshrc
+# Ativa plugins no .zshrc
+desired_plugins="git zsh-autosuggestions zsh-syntax-highlighting zsh-completions zsh-history-substring-search you-should-use fast-syntax-highlighting zsh-vi-mode fzf-tab"
+if ! grep -q "plugins=($desired_plugins)" ~/.zshrc; then
+    echo "⚙️ Atualizando lista de plugins no .zshrc..."
+    sed -i "s/^plugins=.*/plugins=($desired_plugins)/" ~/.zshrc
+fi
 
-echo "🟪 Instalando colorls..."
-sudo gem install colorls || echo "⚠️ colorls pode exigir Ruby dev tools."
+# colorls
+if ! command -v colorls &>/dev/null; then
+    echo "🌈 Instalando colorls..."
+    sudo gem install colorls
+else
+    echo "✅ colorls já está instalado."
+fi
 
-echo "📦 Instalando exa..."
-sudo apt install -y exa || echo "⚠️ Falha ao instalar exa com apt."
+# exa
+if ! command -v exa &>/dev/null; then
+    echo "📦 Instalando exa..."
+    sudo apt install -y exa
+else
+    echo "✅ exa já está instalado."
+fi
 
-echo "🔐 Instalando Secman..."
-npm install -g secman || curl -fsSL https://cli.secman.dev | bash
+# secman
+if ! command -v secman &>/dev/null; then
+    echo "🔐 Instalando Secman..."
+    npm install -g secman || curl -fsSL https://cli.secman.dev | bash
+else
+    echo "✅ Secman já está instalado."
+fi
 
-echo "🔁 Instalando tran..."
-curl -sL https://cutt.ly/tran-cli | bash
+# tran
+if ! command -v tran &>/dev/null; then
+    echo "🔁 Instalando tran..."
+    curl -sL https://cutt.ly/tran-cli | bash
+else
+    echo "✅ tran já está instalado."
+fi
 
-echo "📁 Adicionando aliases para ls..."
-echo '
+# Adiciona aliases de ls
+if ! grep -q 'alias ls=' ~/.zshrc; then
+    echo "📁 Adicionando aliases para colorls ou exa..."
+    echo '
 # Aliases para colorls ou exa
 if [ -x "$(command -v colorls)" ]; then
     alias ls="colorls"
@@ -61,15 +112,19 @@ elif [ -x "$(command -v exa)" ]; then
     alias la="exa --long --all --group"
 fi
 ' >> ~/.zshrc
+fi
 
-echo "🌌 Adicionando efeito Matrix com cmatrix ao abrir o terminal..."
-echo '
+# Adiciona cmatrix
+if ! grep -q 'cmatrix -u 5 -b' ~/.zshrc; then
+    echo "🌌 Adicionando efeito Matrix com cmatrix ao iniciar terminal..."
+    echo '
 # Efeito Matrix ao iniciar terminal
 if command -v cmatrix &>/dev/null; then
   cmatrix -u 5 -b &
   sleep 2 && kill $! &>/dev/null
 fi
 ' >> ~/.zshrc
+fi
 
 echo "✅ Finalizando..."
 source ~/.zshrc
