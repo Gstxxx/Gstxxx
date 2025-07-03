@@ -121,18 +121,6 @@ fi
 ' >> ~/.zshrc
 fi
 
-# Adiciona cmatrix
-if ! grep -q 'cmatrix -u 5 -b' ~/.zshrc; then
-    echo "🌌 Adicionando efeito Matrix com cmatrix ao iniciar terminal..."
-    echo '
-# Efeito Matrix ao iniciar terminal
-if command -v cmatrix &>/dev/null; then
-  cmatrix -u 5 -b &
-  sleep 2 && kill $! &>/dev/null
-fi
-' >> ~/.zshrc
-fi
-
 # Só roda source ~/.zshrc se estiver no zsh
 if [ "$SHELL" = "$(which zsh)" ]; then
     echo "♻️ Recarregando ~/.zshrc"
