@@ -61,13 +61,13 @@ const gustavo = {
 <div align="center">
   
 ### [Monzphere](https://monzphere.com/pt)
-*Plataforma de soluções digitais*
+*Meu primeiro site utilizando um sistema de traduções*
 
 ### [Quick](https://quick.com.br/)
-*Serviços de entrega e logística*
+*Site institucional com uma dashboard pra controle de produtos,banners e etc*
 
 ### [Voltaco](https://voltaco.com.br/)
-*Soluções em energia e infraestrutura*
+*Desenvolvimento de um site pra um time regional com dashboard e cms pra praticamente todas funções do site*
 
 </div>
 
@@ -75,21 +75,16 @@ const gustavo = {
 
 ### 📋 Principais Projetos
 
+<div align="center">
+  
 | Projeto |  Tecnologias | Link |
 |---------|-------------|------|
 | **Monzphere** | nextjs 15 , react 19 | [Visitar](https://monzphere.com/pt) |
 | **Quick** | nextjs 15 , react 19 | [Visitar](https://quick.com.br/) |
 | **Voltaco** | nextjs 15 , react 19 | [Visitar](https://voltaco.com.br/) |
 
+</div>
 ---
-
-### 🚀 Experiência Profissional
-
-**Principais projetos desenvolvidos:**
-
-- **[Monzphere](https://monzphere.com/pt)** - Meu primeiro site utilizando um sistema de traduções 
-- **[Quick](https://quick.com.br/)** - Site institucional com uma dashboard pra controle de produtos,banners e etc
-- **[Voltaco](https://voltaco.com.br/)** - Desenvolvimento de um site pra um time regional com dashboard e cms pra praticamente todas funções do site
 
 ## 🤝 Vamos nos conectar?
 
