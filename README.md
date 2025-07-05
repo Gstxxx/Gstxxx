@@ -56,26 +56,48 @@ const gustavo = {
 - 📱 **Responsive Design**: Garantindo experiências perfeitas em todos os dispositivos
 - 🛠️ **Side Projects**: Explorando C# e C++ em projetos pessoais
 
-## 🌟 Projetos em Destaque
+## 🌟 Projetos em que trabalhei
 
 <div align="center">
-  <a href="https://github.com/Gstxxx/Cantina">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Gstxxx&repo=Cantina&theme=tokyonight" />
-  </a>
-  <a href="https://github.com/Gstxxx/Giveaways">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Gstxxx&repo=Giveaways&theme=tokyonight" />
-  </a>
+  
+### [Monzphere](https://monzphere.com/pt)
+*Plataforma de soluções digitais*
+
+### [Quick](https://quick.com.br/)
+*Serviços de entrega e logística*
+
+### [Voltaco](https://voltaco.com.br/)
+*Soluções em energia e infraestrutura*
+
 </div>
+
+---
+
+### 📋 Principais Projetos
+
+| Projeto |  Tecnologias | Link |
+|---------|-------------|------|
+| **Monzphere** | nextjs 15 , react 19 | [Visitar](https://monzphere.com/pt) |
+| **Quick** | nextjs 15 , react 19 | [Visitar](https://quick.com.br/) |
+| **Voltaco** | nextjs 15 , react 19 | [Visitar](https://voltaco.com.br/) |
+
+---
+
+### 🚀 Experiência Profissional
+
+**Principais projetos desenvolvidos:**
+
+- **[Monzphere](https://monzphere.com/pt)** - Meu primeiro site utilizando um sistema de traduções 
+- **[Quick](https://quick.com.br/)** - Site institucional com uma dashboard pra controle de produtos,banners e etc
+- **[Voltaco](https://voltaco.com.br/)** - Desenvolvimento de um site pra um time regional com dashboard e cms pra praticamente todas funções do site
 
 ## 🤝 Vamos nos conectar?
 
 <div align="center">
   
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/gustavo-azevedo-28ba59248)
-[![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=todoist&logoColor=white)](https://seu-portfolio.com)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:contatogstx@gmail.com)
 [![Discord](https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com/users/gustavin_69)
-
 </div>
 
 ---
@@ -85,12 +107,5 @@ const gustavo = {
   
   **"Code is poetry written in logic"** 🎭
 </div>
-
-<div align="center">
-  <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="dist/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="dist/github-snake.svg" />
-  <img alt="GitHub contribution snake" src="dist/github-snake.svg" />
-</picture>
 
 </div>
