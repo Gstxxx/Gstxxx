@@ -36,7 +36,7 @@ const gustavo = {
 <img src="https://skillicons.dev/icons?i=cs,cpp,dotnet" />
 
 ### OS
-<img src="https://skillicons.dev/icons?i=arch,fedora,bash" />
+<img src="https://skillicons.dev/icons?i=arch,bash" />
 
 </div>
 
