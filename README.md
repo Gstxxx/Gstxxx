@@ -35,6 +35,9 @@ const gustavo = {
 ### Side Projects
 <img src="https://skillicons.dev/icons?i=cs,cpp,dotnet" />
 
+### OS
+<img src="https://skillicons.dev/icons?i=arch,fedora,bash" />
+
 </div>
 
 ## 📊 GitHub Stats
