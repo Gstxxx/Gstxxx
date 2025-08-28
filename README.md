@@ -63,30 +63,12 @@ const gustavo = {
 
 <div align="center">
   
-### [Monzphere](https://monzphere.com/pt)
-*Meu primeiro site utilizando um sistema de traduções*
+### [NutriInteligente](https://nutriinteligente.online/)
 
-### [Quick](https://quick.com.br/)
-*Site institucional com uma dashboard pra controle de produtos,banners e etc*
-
-### [Voltaco](https://voltaco.com.br/)
-*Desenvolvimento de um site pra um time regional com dashboard e cms pra praticamente todas funções do site*
+### [PersonalInteligente](https://www.personalinteligente.online/)
 
 </div>
 
----
-
-### 📋 Principais Projetos
-
-<div align="center">
-  
-| Projeto |  Tecnologias | Link |
-|---------|-------------|------|
-| **Monzphere** | nextjs 15 , react 19 | [Visitar](https://monzphere.com/pt) |
-| **Quick** | nextjs 15 , react 19 | [Visitar](https://quick.com.br/) |
-| **Voltaco** | nextjs 15 , react 19 | [Visitar](https://voltaco.com.br/) |
-
-</div>
 ---
 
 ## 🤝 Vamos nos conectar?
