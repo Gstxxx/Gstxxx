@@ -40,17 +40,6 @@ const gustavo = {
 
 </div>
 
-## 📊 GitHub Stats
-
-<div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Gstxxx&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Gstxxx&layout=compact&langs_count=7&theme=tokyonight"/>
-</div>
-
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Gstxxx&theme=tokyonight" alt="GitHub Streak" />
-</div>
-
 ## 🎯 O que eu faço
 
 - 🎨 **Frontend Development**: Criando interfaces modernas e responsivas com React/Next.js
