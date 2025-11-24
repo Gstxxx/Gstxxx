@@ -67,6 +67,12 @@ const gustavo = {
 
 ### [PersonalInteligente](https://www.personalinteligente.online/)
 
+### [Quick](https://quick.com.br/)
+
+### [vagapronta](https://vagapronta.com/)
+
+### [voltaço](https://voltaco.com.br/)
+
 </div>
 
 ---
