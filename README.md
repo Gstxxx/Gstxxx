@@ -64,6 +64,12 @@ const gustavo = {
 
 </div>
 
+<div align="center">
+  
+## Projetos em destaque
+
+### [Desafio Picpay](https://github.com/Gstxxx/picpay-simplificado)
+</div>
 ---
 
 ## 🤝 Vamos nos conectar?
