@@ -1,93 +1,77 @@
-# 👋 Olá, eu sou Gustavo!
-
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=24&pause=1000&color=00D9FF&center=true&vCenter=true&random=false&width=500&height=60&lines=Full-Stack+Developer;Frontend+Specialist;React+%26+Next.js+Expert;From+Rio+de+Janeiro%2C+Brazil" alt="Typing SVG" />
+
+# Gustavo Azevedo
+
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&pause=1200&color=C9D1D9&center=true&vCenter=true&width=600&height=45&lines=Full-Stack+Engineer;Distributed+Systems+%26+Architecture;React+%C2%B7+Next.js+%C2%B7+TypeScript;Node+%C2%B7+PostgreSQL+%C2%B7+AWS+%C2%B7+Oracle" alt="roles" />
+
 </div>
 
-<div align="center">
-  <img src="https://github.com/Gstxxx/Gstxxx/assets/your-asset-id/profile-banner.gif" width="100%" alt="Profile Banner" />
-</div>
+---
 
-## 🚀 Sobre mim
-
-Sou um **desenvolvedor full-stack** apaixonado por criar experiências digitais incríveis, com foco especial no **frontend**. Baseado no Rio de Janeiro 🏖️, transformo ideias em código há mais de **8 anos**.
+Engenheiro full-stack baseado no Rio de Janeiro, com foco em arquitetura de frontend, sistemas distribuídos e performance. Trabalho desde o design da interface até a modelagem de dados e a operação em nuvem — privilegiando código manutenível, decisões mensuráveis e entregas deliberadas.
 
 ```typescript
-const gustavo = {
-  location: "Rio de Janeiro, Brazil 🇧🇷",
-  focus: "Frontend Development",
-  passion: "Creating amazing user experiences",
-  learning: "Always exploring new technologies",
-  funFact: "I love turning coffee into code ☕️"
-};
+const engineer = {
+  role: "Full-Stack Engineer",
+  based: "Rio de Janeiro, BR",
+  focus: ["frontend architecture", "distributed systems", "performance"],
+  stack: {
+    frontend: ["React", "Next.js", "TypeScript"],
+    backend:  ["Node.js", "PostgreSQL", "Prisma", "Oracle"],
+    cloud:    ["AWS", "Docker", "CI/CD"],
+  },
+  principles: ["design for scale", "measure before optimizing", "ship deliberately"],
+} as const;
 ```
 
-## 💻 Stack Principal
+## Stack
 
 <div align="center">
 
-### Frontend Expertise
-<img src="https://skillicons.dev/icons?i=react,nextjs,typescript,javascript,html,css,tailwind,sass" />
+**Frontend**
 
-### Backend & Tools
-<img src="https://skillicons.dev/icons?i=nodejs,express,prisma,mongodb,postgresql,git,figma,vscode" />
+<img src="https://skillicons.dev/icons?i=react,nextjs,typescript,javascript,tailwind,sass" />
 
-### Side Projects
-<img src="https://skillicons.dev/icons?i=cs,cpp,dotnet" />
+**Backend & Data**
 
-### OS
-<img src="https://skillicons.dev/icons?i=arch,bash" />
+<img src="https://skillicons.dev/icons?i=nodejs,express,prisma,postgresql,mongodb" />
 
-</div>
+**Cloud & Infra**
 
-## 🎯 O que eu faço
-
-- 🎨 **Frontend Development**: Criando interfaces modernas e responsivas com React/Next.js
-- ⚡ **Performance Optimization**: Otimizando aplicações para máximo desempenho
-- 🔧 **Full-Stack Solutions**: Desenvolvendo aplicações completas do zero
-- 📱 **Responsive Design**: Garantindo experiências perfeitas em todos os dispositivos
-- 🛠️ **Side Projects**: Explorando C# e C++ em projetos pessoais
-
-## 🌟 Projetos em que trabalhei
-
-<div align="center">
-  
-### [NutriInteligente](https://nutriinteligente.online/)
-
-### [PersonalInteligente](https://www.personalinteligente.online/)
-
-### [Quick](https://quick.com.br/)
-
-### [vagapronta](https://vagapronta.com/)
-
-### [voltaço](https://voltaco.com.br/)
+<img src="https://skillicons.dev/icons?i=aws,docker,git,bash,linux" />
 
 </div>
 
-<div align="center">
-  
-## Projetos em destaque
+## Foco
 
-### [Desafio Picpay](https://github.com/Gstxxx/picpay-simplificado)
-</div>
+- **Arquitetura de frontend** — interfaces em React/Next.js pensadas para performance, escala e manutenibilidade
+- **Backend & dados** — APIs, modelagem e serviços em Node.js, PostgreSQL, Prisma e Oracle
+- **Sistemas distribuídos** — caching, filas e design para escala e resiliência
+- **Cloud & operação** — deploy e operação em AWS, containerização com Docker e pipelines de CI/CD
 
----
+## Projetos
 
-## 🤝 Vamos nos conectar?
+| Projeto | |
+| --- | --- |
+| **NutriInteligente** | [nutriinteligente.online](https://nutriinteligente.online/) |
+| **PersonalInteligente** | [personalinteligente.online](https://www.personalinteligente.online/) |
+| **Quick** | [quick.com.br](https://quick.com.br/) |
+| **vagapronta** | [vagapronta.com](https://vagapronta.com/) |
+| **voltaço** | [voltaco.com.br](https://voltaco.com.br/) |
+| **PicPay Simplificado** | [github.com/Gstxxx/picpay-simplificado](https://github.com/Gstxxx/picpay-simplificado) |
 
-<div align="center">
-  
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/gustavo-azevedo-28ba59248)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:contatogstx@gmail.com)
-[![Discord](https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com/users/gustavin_69)
-</div>
+## Contato
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/gustavo-azevedo-28ba59248)
+[![Email](https://img.shields.io/badge/Email-24292F?style=flat-square&logo=gmail&logoColor=white)](mailto:contatogstx@gmail.com)
+[![Discord](https://img.shields.io/badge/Discord-5865F2?style=flat-square&logo=discord&logoColor=white)](https://discord.com/users/gustavin_69)
 
 ---
 
 <div align="center">
-  <img src="https://komarev.com/ghpvc/?username=Gstxxx&label=Profile%20views&color=0e75b6&style=flat" alt="Profile Views" />
-  
-  **"Code is poetry written in logic"** 🎭
-</div>
-
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Gstxxx/Gstxxx/output/github-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Gstxxx/Gstxxx/output/github-snake.svg" />
+    <img alt="contribution graph" src="https://raw.githubusercontent.com/Gstxxx/Gstxxx/output/github-snake.svg" />
+  </picture>
 </div>
