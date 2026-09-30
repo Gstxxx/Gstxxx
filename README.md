@@ -16,7 +16,7 @@ Hoje trabalho na **[Shomer](https://shomer.com.br)** com portaria remota, e nas 
 Fiz sozinho o **Shomer Entregas**, que já está na versão 1.22. Quando chega uma encomenda no condomínio, a foto é conferida por IA, o morador recebe um aviso no WhatsApp e o armário ou o portão abre na hora (Sonoff/eWeLink e Zkteco).
 Também montei o atendente da portaria autônoma com LLMs. Comecei com RAG em cima do Postgres, depois troquei por contexto estruturado e registrei o motivo num ADR. Tem ainda um agente de voz com Twilio + OpenAI Realtime, um agente no painel admin com audit log e a integração com o Asterisk, que permite liberar visita por ligação.
 
-**No NewWay** (desde dez/2023)
+**No NewWay** (desde dez/2018)
 É um produto meu. Coordeno 4 devs e reviso PR em uns 20 repositórios. O núcleo é C++20/23 com DirectX, ImGui e scripts em LuaJIT. O launcher é Win32 + WebView2 com a interface em React. A parte de licenças e revenda roda em Laravel, com venda por PIX e licença emitida automaticamente.
 
 **Freelas** (desde 2023)
