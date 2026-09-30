@@ -16,7 +16,7 @@ Hoje trabalho na **[Shomer](https://shomer.com.br)** com portaria remota, e nas 
 Fiz sozinho o **Shomer Entregas**, que já está na versão 1.22. Quando chega uma encomenda no condomínio, a foto é conferida por IA, o morador recebe um aviso no WhatsApp e o armário ou o portão abre na hora (Sonoff/eWeLink e Zkteco).
 Também montei o atendente da portaria autônoma com LLMs. Comecei com RAG em cima do Postgres, depois troquei por contexto estruturado e registrei o motivo num ADR. Tem ainda um agente de voz com Twilio + OpenAI Realtime, um agente no painel admin com audit log e a integração com o Asterisk, que permite liberar visita por ligação.
 
-**No NewWay** (desde dez/2018)
+**No NewWay** (desde dez/2023)
 É um produto meu. Coordeno 4 devs e reviso PR em uns 20 repositórios. O núcleo é C++20/23 com DirectX, ImGui e scripts em LuaJIT. O launcher é Win32 + WebView2 com a interface em React. A parte de licenças e revenda roda em Laravel, com venda por PIX e licença emitida automaticamente.
 
 **Freelas** (desde 2023)
@@ -30,8 +30,8 @@ Fiz um e-commerce de ótica que está no ar. Nele fiz uma auditoria de seguranç
 
 <div align="center">
 
-[![PicPay Simplificado .NET](https://github-readme-stats.vercel.app/api/pin/?username=Gstxxx&repo=picpay-simplificado-dotnet&theme=github_dark&hide_border=true)](https://github.com/Gstxxx/picpay-simplificado-dotnet)
-[![PicPay Simplificado](https://github-readme-stats.vercel.app/api/pin/?username=Gstxxx&repo=picpay-simplificado&theme=github_dark&hide_border=true)](https://github.com/Gstxxx/picpay-simplificado)
+<a href="https://github.com/Gstxxx/picpay-simplificado-dotnet"><img src="https://gh-card.dev/repos/Gstxxx/picpay-simplificado-dotnet.svg" /></a>
+<a href="https://github.com/Gstxxx/picpay-simplificado"><img src="https://gh-card.dev/repos/Gstxxx/picpay-simplificado.svg" /></a>
 
 </div>
 
@@ -55,22 +55,14 @@ Estou fazendo Ciência da Computação na Estácio (2026–2030). Falo portuguê
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=Gstxxx&show_icons=true&theme=github_dark&hide_border=true&count_private=true" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Gstxxx&layout=compact&theme=github_dark&hide_border=true&langs_count=8" />
+<img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Gstxxx&theme=github_dark" />
+
+<img height="170" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Gstxxx&theme=github_dark" />
+<img height="170" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Gstxxx&theme=github_dark" />
 
 <img src="https://streak-stats.demolab.com?user=Gstxxx&theme=github-dark-blue&hide_border=true" />
 
-<img src="https://github-profile-trophy.vercel.app/?username=Gstxxx&theme=onedark&no-frame=true&no-bg=true&row=1&column=7" />
-
-<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=Gstxxx&theme=github-compact&hide_border=true&area=true" />
 </div>
-
-## Bora conversar
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/gustavo-azevedo-28ba59248)
-[![Email](https://img.shields.io/badge/Email-24292F?style=flat-square&logo=gmail&logoColor=white)](mailto:contatogstx@gmail.com)
-[![Discord](https://img.shields.io/badge/Discord-5865F2?style=flat-square&logo=discord&logoColor=white)](https://discord.com/users/gustavin_69)
-![Visitas](https://komarev.com/ghpvc/?username=Gstxxx&style=flat-square&color=blue&label=visitas)
 
 ---
 
@@ -80,4 +72,8 @@ Estou fazendo Ciência da Computação na Estácio (2026–2030). Falo portuguê
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Gstxxx/Gstxxx/output/github-snake.svg" />
     <img alt="contribution graph" src="https://raw.githubusercontent.com/Gstxxx/Gstxxx/output/github-snake.svg" />
   </picture>
+
+  <br/><br/>
+
+  <img src="https://komarev.com/ghpvc/?username=Gstxxx&style=flat-square&color=blue&label=visitas" />
 </div>
