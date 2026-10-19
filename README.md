@@ -1,32 +1,35 @@
 <div align="center">
 
-# Oi, eu sou o Gustavo 👋
+# Hi, I'm Gustavo 👋
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&pause=1200&color=C9D1D9&center=true&vCenter=true&width=600&height=45&lines=Dev+backend+que+gosta+de+IA;C%23+%2F+.NET+%C2%B7+TypeScript+%C2%B7+C%2B%2B;Software+que+abre+port%C3%A3o+de+verdade" alt="roles" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&pause=1200&color=C9D1D9&center=true&vCenter=true&width=600&height=45&lines=Backend+engineer+%C2%B7+AI+in+production;Software+that+opens+real+gates;30k%2B+customers+on+a+product+I+built" alt="roles" />
 
 </div>
 
-Sou dev em Volta Redonda (RJ) e programo profissionalmente há uns 3 anos. Gosto mais é de backend, principalmente quando o software precisa conversar com alguma coisa do mundo real: portão, interfone, fechadura, central telefônica.
+Backend engineer based in Brazil with ~3 years of professional experience. I build software that leaves the screen and acts on the physical world: gates, lockers, intercoms and phone systems, increasingly driven by AI. I care about shipping things people actually use, and about keeping them running once they do.
 
-Hoje trabalho na **[Shomer](https://shomer.com.br)** com portaria remota, e nas horas vagas cuido do **NewWay**, um software desktop em C++ que já passou dos 15 mil usuários.
+> **Looking for:** Backend / AI Engineer roles · Remote
 
-## O que ando fazendo
+## Impact
 
-**Na Shomer** (desde nov/2025)
-Fiz sozinho o **Shomer Entregas**, que já está na versão 1.22. Quando chega uma encomenda no condomínio, a foto é conferida por IA, o morador recebe um aviso no WhatsApp e o armário ou o portão abre na hora (Sonoff/eWeLink e Zkteco).
-Também montei o atendente da portaria autônoma com LLMs. Comecei com RAG em cima do Postgres, depois troquei por contexto estruturado e registrei o motivo num ADR. Tem ainda um agente de voz com Twilio + OpenAI Realtime, um agente no painel admin com audit log e a integração com o Asterisk, que permite liberar visita por ligação.
+**Shomer** · Remote building security (Nov 2025 – present)
+- **Built Shomer Entregas end to end, solo**, now at v1.22 in production. When a package arrives, AI verifies the photo, the resident is notified on WhatsApp, and the locker or gate opens on the spot, removing the need for a doorman to handle deliveries.
+- **Created the AI attendant for autonomous concierge service.** Started with RAG over Postgres, measured it, replaced it with structured context when it fell short, and documented the decision in an ADR.
+- **Let residents approve visitors with a phone call** through an Asterisk integration, plus a real-time voice agent and an admin-panel agent with full audit logging.
 
-**No NewWay** (desde dez/2023)
-É um produto meu. Coordeno 4 devs e reviso PR em uns 20 repositórios. O núcleo é C++20/23 com DirectX, ImGui e scripts em LuaJIT. O launcher é Win32 + WebView2 com a interface em React. A parte de licenças e revenda roda em Laravel, com venda por PIX e licença emitida automaticamente.
+**NewWay** · My own product (Dec 2023 – present)
+- **Grew a desktop product to 30,000+ paying customers** and **35,000+ license keys activated**.
+- **Lead a team of 4 developers** and review PRs across ~20 repositories.
+- **Automated the whole sales pipeline**: customers pay via PIX and receive their license instantly, with no manual step. Built a reseller program that now runs through **11 verified resellers**.
 
-**Freelas** (desde 2023)
-Fiz um e-commerce de ótica que está no ar. Nele fiz uma auditoria de segurança: passei a cifrar CPF e telefone, adicionei CSP/HSTS e corrigi um bypass de rate limit. Também fiz uma loja digital com PIX + Stripe e um sistema de gestão de frota com rastreamento por GPS.
+**Freelance** (2023 – present)
+- **Ran a security audit on a live optical e-commerce store**: encrypted personal data at rest (CPF, phone numbers), added CSP/HSTS and fixed a rate-limit bypass.
+- Delivered a digital storefront with PIX + Stripe payments and a GPS fleet-management system.
 
-## Projetos pra olhar
+## Featured work
 
-- **[PicPay Simplificado .NET](https://github.com/Gstxxx/picpay-simplificado-dotnet)**: minha versão do desafio clássico, feita com cuidado. Usa .NET 10, EF Core e Postgres, com transferência atômica, idempotência que aguenta concorrência, outbox com `SKIP LOCKED`, Polly e 68 testes com Testcontainers.
-- **Heartopia Helper**: mod em C# para um jogo Unity. Usa HarmonyLib, Il2CppInterop e ImGui.NET, e se um módulo quebra, os outros continuam funcionando.
-- **Produtos no ar:** [NutriInteligente](https://nutriinteligente.online/) · [PersonalInteligente](https://www.personalinteligente.online/) · [Quick](https://quick.com.br/) · [vagapronta](https://vagapronta.com/) · [voltaço](https://voltaco.com.br/)
+- **[PicPay Simplified (.NET)](https://github.com/Gstxxx/picpay-simplificado-dotnet)**: my take on the classic payments challenge, built the way I'd build it for production: atomic transfers, concurrency-safe idempotency, a transactional outbox with `SKIP LOCKED`, resilience policies and 68 integration tests against real Postgres via Testcontainers.
+- **Products in production:** [NutriInteligente](https://nutriinteligente.online/) · [PersonalInteligente](https://www.personalinteligente.online/) · [Quick](https://quick.com.br/) · [vagapronta](https://vagapronta.com/) · [voltaço](https://voltaco.com.br/)
 
 <div align="center">
 
@@ -35,31 +38,21 @@ Fiz um e-commerce de ótica que está no ar. Nele fiz uma auditoria de seguranç
 
 </div>
 
-## Com o que eu trabalho
+## Toolbox
+
+Mostly **C# / .NET**, **TypeScript** and **C++**, with Postgres, Redis and Docker. On the AI side: OpenAI (chat, vision, Whisper, Realtime), Claude, function calling, agents and MCP. Integrations with Asterisk, Twilio, WhatsApp, Stripe and PIX.
 
 <div align="center">
-
-<img src="https://skillicons.dev/icons?i=cs,dotnet,ts,nodejs,cpp,php,laravel,lua" />
-<br/>
-<img src="https://skillicons.dev/icons?i=postgres,mysql,redis,mongodb,prisma,docker,nginx,githubactions" />
-<br/>
-<img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,flutter,linux" />
-
+<img src="https://skillicons.dev/icons?i=cs,dotnet,ts,cpp,postgres,redis,docker,react" />
 </div>
 
-Em IA uso bastante OpenAI (chat, visão, Whisper, Realtime), Claude, OpenRouter e Ollama, com function calling, agentes e MCP. Em integrações já trabalhei com Asterisk, Twilio, WhatsApp/Chatwoot, Mercado Pago, Stripe e PIX.
+## Elsewhere
 
-Estou fazendo Ciência da Computação na Estácio (2026–2030). Falo português e me viro bem no inglês.
-
-## Alguns números
+Studying Computer Science (2026–2030). Portuguese (native), English (professional working proficiency).
 
 <div align="center">
 
-<img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Gstxxx&theme=github_dark" />
-
 <img height="170" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Gstxxx&theme=github_dark" />
-<img height="170" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Gstxxx&theme=github_dark" />
-
 <img src="https://streak-stats.demolab.com?user=Gstxxx&theme=github-dark-blue&hide_border=true" />
 
 </div>
@@ -72,8 +65,4 @@ Estou fazendo Ciência da Computação na Estácio (2026–2030). Falo portuguê
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Gstxxx/Gstxxx/output/github-snake.svg" />
     <img alt="contribution graph" src="https://raw.githubusercontent.com/Gstxxx/Gstxxx/output/github-snake.svg" />
   </picture>
-
-  <br/><br/>
-
-  <img src="https://komarev.com/ghpvc/?username=Gstxxx&style=flat-square&color=blue&label=visitas" />
 </div>
